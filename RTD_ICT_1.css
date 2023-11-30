@@ -1,0 +1,45 @@
+html {
+  text-align: center;
+  user-select: none;
+}
+
+body {
+    /*background-image: url('./RTD_imgs/RTD_BG.png'); /* Replace with the actual path to your image file */
+    background-size: cover; /* This property ensures that the background image covers the entire viewport */
+    background-position: center; /* This property centers the background image */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    margin: 0; /* Remove default margin from body */
+    background-color: white;
+}
+
+div{
+    color:black;
+    align-self: center;
+}
+
+.twat{
+    height: 400px;
+    width: 200px;
+}
+
+
+
+#inv_list {
+    margin: auto;
+    user-select: none;
+    overflow-y:scroll; /* Center the table horizontally */
+}
+
+.squishy-button {
+    /*padding: 10px 20px; /* Adjust the padding as needed */
+    /* font-size: 16px; /*Adjust the font size as needed */
+    transition: transform 0.2s ease-in-out;
+}
+
+.expired {
+    background-color: rgb(28, 155, 66); /* or any other styling you want for near expiration */
+}
+
+.squishy-button:active {
+    transform: scale(0.9);
+}
